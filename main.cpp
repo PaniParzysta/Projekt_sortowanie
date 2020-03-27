@@ -72,6 +72,7 @@ int main() {
                 delete [] tab_1;            //usuwanie miejsca w pamieci dla tablic dynamicznych
                 delete [] tab_2;
                 delete [] tablica;
+
             }
 
             srednia1=suma1/100;             //obliczenie sredniego czasu dzialania poszczegolnego algorytmu
@@ -81,6 +82,10 @@ int main() {
             cout<<"Srednia quicksort: "<<srednia2/1000000<<" s"<<endl;
             cout<<"Srednia mergesort: "<<srednia3/1000000<<" s"<<endl;
             cout<<endl;
+
+            suma1=0;
+            suma2=0;
+            suma3=0;
         }
     }
 
